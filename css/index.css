@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+body {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+    font-family:sans-serif;
+    font-size: 13px;
+    background-color: #AEACAF;
+}
+
+header {
+    background-image: url("../img/map.jpg");
+    background-position: center center;
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1%;
+}
+
+header h1 {
+    font-size: 2rem;
+    color: #1849E2;
+}
+
+header h2 {
+    font-size: 1.5rem;
+    color: #F7D97E;
+}
+
+#zen-preamble {
+    background-color: red;
+}
+
+#zen-supporting {
+    background-color: orange;
+    padding: 10px
+}
+
+#zen-participation {
+    background-color: yellow;
+    padding: 10px
+}
+
+#zen-benefits {
+    background-color: green;
+    padding: 10px
+}
+
+#zen-requirements {
+    background-color: #65B5E7;
+    padding: 10px
+}
+
+aside {
+    background-color: #D477F9;
+    order:1;
+}
+
+footer {
+    background-color: #1849E2;
+    text-align: center;
+}
